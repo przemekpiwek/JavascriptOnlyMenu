@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.layer {
+  background-image: url(/imgs/jason-tuinstra-4OfaTz6SdYs-unsplash.jpg);
+  background-size: 155% 145%;
+  background-position: top right;
+  height: 100vh;
+  width: 100vw;
+}
+#content {
+  background: radial-gradient(#00000000, #0e0e0e77);
+  width: 100vw;
+  height: 100vh;
+}
+h1 {
+  font-size: 15px;
+}
+ul {
+  background: red;
+  margin: 0;
+  padding-inline-start: 0px;
+  width: 300px;
+  height: 300px;
+}
+li {
+  font-weight: bold;
+  display: block;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  line-height: 1em;
+  font-size: 3em;
+  padding: 10px 40px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 800;
+  text-align: center;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  column-gap: 50px;
+  row-gap: 30px;
+  margin-right: 50px;
+}
+.price {
+  display: inline-block;
+  font-size: 15px;
+  font-style: italic;
+  color: white;
+  margin-left: 20px;
+}
+.cell {
+  color: white;
+  width: 400px;
+}
+.cell h1 {
+  display: inline-block;
+  font-size: 15px;
+  line-height: 1px;
+}
+.cell h2 {
+  font-size: 15px;
+  font-style: italic;
+}
+li:hover {
+  color: #182c41;
+}
+
+@media screen and (max-width: 1150px) {
+  #menuDivLeft {
+    justify-content: left;
+  }
+  #menu {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #menu-list {
+    flex-direction: row;
+  }
+  ul {
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+  }
+  li {
+    font-size: 30px;
+  }
+  #header {
+    margin-bottom: 20px !important;
+  }
+  #menuDivRight {
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  .grid {
+    margin-bottom: 30px;
+    row-gap: 20px;
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Menu",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/przemekpiwek/Menu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "4.43.0",
+    "webpack-cli": "3.3.11"
+  }
+}
