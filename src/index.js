@@ -73,8 +73,12 @@ const clearContent = () => {
 function populateBrunch() {
   clearContent();
   BrunchMenu();
+  brunch.style.color = "#182c41";
+  dinner.style.color = "white";
 }
 function populateDinner() {
   clearContent();
   Dinner();
+  dinner.style.color = "#182c41";
+  brunch.style.color = "white";
 }
